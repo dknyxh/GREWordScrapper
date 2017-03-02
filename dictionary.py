@@ -23,6 +23,8 @@ shell
 </entry>
 """
 def process_dt2(dt):
+    if (dt.tag == 'sxn'):
+        return ""
     return_str = ""
     if dt.text:
         return_str+= dt.text
