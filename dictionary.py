@@ -24,12 +24,15 @@ shell
 def process_dt(dt):
     return_str = ""
     if dt.text:
-        return_str+= dt.text.strip()
+        return_str+= dt.text.strip('\n')
     for each_child in dt:
-        return_str += (" " + process_dt(each_child)+ " ")
+        if each_child.tag == 'it':
+            return_str += process_dt(each_child)
+        else:
+            return_str += (" " + process_dt(each_child)+ " ")
     if dt.tail:
-        return_str+= dt.tail.strip()
-    return_str = return_str.strip()
+        return_str+= dt.tail.strip('\n')
+    return_str = return_str.strip('\n')
     if dt.tag == 'sxn':
         return_str = ''
     elif dt.tag == 'sx':
