@@ -119,11 +119,11 @@ def search_word(user_input, database):
         elif input_list[1] == 'u':
             should_update = True
     print("You are searching for {}".format(word))
-    if word in stored_json and not should_update:
-        stored_json[word]['hit'] += 1
+    if word in database and not should_update:
+        database[word]['hit'] += 1
         print("Find local cache:")
-        print("You have search for {} times".format(word), stored_json[word]['hit'])
-        print_word(stored_json[word], extensions = should_show_extension)
+        print("You have search for {} times".format(word), database[word]['hit'])
+        print_word(database[word], extensions = should_show_extension)
     else:
         url = "http://www.dictionaryapi.com/api/v1/references/collegiate/xml/{}?key={}".format(word, api_key)
         try:
@@ -165,48 +165,59 @@ def search_word_longman(user_input,database):
     input_list = user_input.strip().split('@')
     word = input_list[0]
     should_show_extension = False
+    should_update = False
     if len(input_list) > 1:
         if input_list[1] == 'e':
             should_show_extension = True
-
-    url = "http://api.pearson.com/v2/dictionaries/ldoce5/entries?headword={}".format(word)
-    try:
-        response = urllib.request.urlopen(url)
-        response_str = response.read()
-        response_json = json.loads(response_str)
-        if response_json and "results" in response_json and len(response_json["results"]) > 0:
-            explanations = []
-            extensions = []
-            for each_explanation in response_json['results']:
-                new_explanatoin = {}
-                add_to_extensions = False
-                if "headword" in each_explanation:
-                    new_explanatoin["word"] = each_explanation["headword"]
-                else:
-                    new_explanatoin["word"] = word
-                if new_explanatoin["word"].lower() == word.lower():
+        if input_list[1] == 'u':
+            should_update = True
+    if word in database and not should_update:
+        database[word]['hit'] += 1
+        print("Find local cache:")
+        print("You have search for {} times".format(word), database[word]['hit'])
+        print_word(database[word], extensions = should_show_extension)
+    else:
+        url = "http://api.pearson.com/v2/dictionaries/ldoce5/entries?headword={}".format(word)
+        try:
+            response = urllib.request.urlopen(url)
+            response_str = response.read()
+            response_json = json.loads(response_str)
+            if response_json and "results" in response_json and len(response_json["results"]) > 0:
+                explanations = []
+                extensions = []
+                for each_explanation in response_json['results']:
+                    new_explanatoin = {}
                     add_to_extensions = False
-                else:
-                    add_to_extensions = True
-                if "part_of_speech" in each_explanation:
-                    new_explanatoin["part"] = each_explanation["part_of_speech"]
-                new_explanatoin["definition"] = [];
-                if "senses" in each_explanation:
-                    for each_sense in each_explanation["senses"]:
-                        if "definition" in each_sense:
-                            for each_definition in each_sense["definition"]:
-                                new_explanatoin["definition"].append([each_definition])
-                if add_to_extensions:
-                    extensions.append(new_explanatoin)
-                else:
-                    explanations.append(new_explanatoin)
-            word_dict = {"explanations":explanations, 'extensions':extensions, 'hit':0}
-            database[word] = word_dict
-            print_word(word_dict, extensions = should_show_extension)
-        else:
-            print("No results")
-    except Exception as e:
-        print("Error", e)
+                    if "headword" in each_explanation:
+                        new_explanatoin["word"] = each_explanation["headword"]
+                    else:
+                        new_explanatoin["word"] = word
+                    if new_explanatoin["word"].lower() == word.lower():
+                        add_to_extensions = False
+                    else:
+                        add_to_extensions = True
+                    if "part_of_speech" in each_explanation:
+                        new_explanatoin["part"] = each_explanation["part_of_speech"]
+                    new_explanatoin["definition"] = [];
+                    if "senses" in each_explanation:
+                        for each_sense in each_explanation["senses"]:
+                            if "definition" in each_sense:
+                                for each_definition in each_sense["definition"]:
+                                    new_explanatoin["definition"].append([each_definition])
+                    if add_to_extensions:
+                        extensions.append(new_explanatoin)
+                    else:
+                        explanations.append(new_explanatoin)
+                hit_count = 1
+                if word in database:
+                    hit_count = database[word]['hit'] + 1
+                word_dict = {"explanations":explanations, 'extensions':extensions, 'hit':hit_count}
+                database[word] = word_dict
+                print_word(word_dict, extensions = should_show_extension)
+            else:
+                print("No results")
+        except Exception as e:
+            print("Error", e)
 
 
 
