@@ -1,4 +1,77 @@
 {
+    "agitated": {
+        "explanations": [],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":to give motion to  ",
+                        ":to move with an irregular, rapid, or violent action  \n  #Ex: the storm agitated the sea  ",
+                        ":to excite and often trouble the mind or feelings of : #Synonymous: disturb  ",
+                        ":to discuss excitedly and earnestly  ",
+                        ":to stir up public discussion of",
+                        ":to attempt to arouse public feeling  \n  #Ex: agitated for better schools "
+                    ]
+                ],
+                "part": "verb",
+                "word": "agitate"
+            }
+        ],
+        "hit": 1
+    },
+    "ails": {
+        "explanations": [],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":to give physical or emotional pain, discomfort, or trouble to",
+                        ":to have something the matter ",
+                        ":to suffer ill health"
+                    ]
+                ],
+                "part": "verb",
+                "word": "ail"
+            },
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: ailment "
+                    ]
+                ],
+                "part": "noun",
+                "word": "ail"
+            }
+        ],
+        "hit": 1
+    },
+    "atonement": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: reconciliation  ",
+                        ":the reconciliation of God and humankind through the sacrificial death of Jesus Christ ",
+                        ":reparation for an offense or injury : #Synonymous: satisfaction  ",
+                        ":the exemplifying of human oneness with God"
+                    ]
+                ],
+                "part": "noun",
+                "word": "atonement"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: yom kippur "
+                    ]
+                ],
+                "word": "Day of Atonement"
+            }
+        ],
+        "hit": 1
+    },
     "barge": {
         "explanations": [
             {
@@ -39,6 +112,240 @@
         ],
         "hit": 1
     },
+    "blather": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":to talk foolishly at length  \n  #Usage: often used with on "
+                    ]
+                ],
+                "part": "verb",
+                "word": "blather"
+            },
+            {
+                "definiation": [
+                    [
+                        ":voluble nonsensical or inconsequential talk or writing ",
+                        ": #Synonymous: stir   #Synonymous: commotion "
+                    ]
+                ],
+                "part": "noun",
+                "word": "blather"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [],
+                "word": "blether"
+            }
+        ],
+        "hit": 1
+    },
+    "bleak": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":exposed and barren and often windswept ",
+                        ": #Synonymous: cold   #Synonymous: raw   \n  #Ex: a bleak November evening  ",
+                        ":lacking in warmth, life, or kindliness : #Synonymous: grim   ",
+                        ":not hopeful or encouraging : #Synonymous: depressing   \n  #Ex: a bleak outlook   ",
+                        ":severely simple or austere"
+                    ]
+                ],
+                "part": "adjective",
+                "word": "bleak"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "blithering": {
+        "explanations": [],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: blather "
+                    ]
+                ],
+                "part": "verb",
+                "word": "blither"
+            }
+        ],
+        "hit": 1
+    },
+    "brace": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":to fasten tightly : #Synonymous: bind  ",
+                        ":to prepare for use by making taut  ",
+                        ": #Synonymous: prepare   #Synonymous: steel   \n  #Ex: brace yourself for the shock   ",
+                        ": #Synonymous: invigorate   #Synonymous: freshen  ",
+                        ":to turn (a sail yard) by means of a brace ",
+                        ":to furnish or support with a brace  \n  #Ex: heavily braced against the wind   ",
+                        ":to make stronger : #Synonymous: reinforce  ",
+                        ":to put or plant firmly  \n  #Ex: braces his foot in the stirrup  ",
+                        ":to waylay especially with demands or questions",
+                        ":to take heart  \n  #Usage: used with up  ",
+                        ":to get ready (as for an attack)"
+                    ]
+                ],
+                "part": "verb",
+                "word": "brace"
+            },
+            {
+                "definiation": [
+                    [
+                        ":something (as a clasp) that connects or fastens ",
+                        ":two of a kind : #Synonymous: pair   \n  #Ex: several brace of quail  ",
+                        ":a crank-shaped instrument for turning a bit ",
+                        " :something that transmits, directs, resists, or supports weight or pressure: as  ",
+                        ":a diagonal piece of structural material that serves to strengthen something (as a framework)  ",
+                        ":a rope rove through a block at the end of a ship's yard to swing it horizontally  ",
+                        ": #Synonymous: suspenders   ",
+                        ":an appliance for supporting a body part  ",
+                        ":an orthodontic appliance usually of metallic wire that is used especially to exert pressure to straighten misaligned teeth  ",
+                        ":one of two marks { } used to connect words or items to be considered together  ",
+                        ":one of these marks connecting two or more musical staffs carrying parts to be performed simultaneously  ",
+                        ": #Synonymous: bracket     ",
+                        ":a position of rigid attention ",
+                        ":something that arouses energy or strengthens morale"
+                    ]
+                ],
+                "part": "noun",
+                "word": "brace"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: prop root "
+                    ]
+                ],
+                "part": "noun",
+                "word": "brace root"
+            }
+        ],
+        "hit": 1
+    },
+    "brazen": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":made of brass ",
+                        ":sounding harsh and loud like struck brass  ",
+                        ":of the color of polished brass ",
+                        ":marked by contemptuous boldness  \n  #Ex: a brazen disregard for the rules "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "brazen"
+            },
+            {
+                "definiation": [
+                    [
+                        ":to face with defiance or impudence  \n  #Usage: usually used in the phrase brazen it out "
+                    ]
+                ],
+                "part": "verb",
+                "word": "brazen"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":marked by insolence and bold disrespect  \n  #Ex: brazen\u2013faced assertions "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "brazen-faced"
+            }
+        ],
+        "hit": 1
+    },
+    "brethren": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        " \n  #Usage: used chiefly in formal or solemn address or in referring to the members of a profession, society, or sect "
+                    ]
+                ],
+                "word": "brethren"
+            },
+            {
+                "definiation": [
+                    [
+                        ":members of various sects originating chiefly in 18th century German Pietism ",
+                        ": #Synonymous: dunkers "
+                    ]
+                ],
+                "part": "noun plural",
+                "word": "Brethren"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":a male who has the same parents as another or one parent in common with another ",
+                        ":one related to another by common ties or interests ",
+                        ":a fellow member  \n  #Usage: used as a title for ministers in some evangelical denominations  ",
+                        ":one of a type similar to another ",
+                        ": #Synonymous: kinsman   ",
+                        ":one who shares with another a common national or racial origin ",
+                        ": #Synonymous: soul brother  ",
+                        ":a member of a congregation of men not in holy orders and usually in hospital or school work  ",
+                        ":a member of a men's religious order who is not preparing for or is not ready for holy orders  \n  #Ex: a lay brother "
+                    ]
+                ],
+                "part": "noun",
+                "word": "brother"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a Christian body originating in Bohemia in 1467 and forming a parent body of the Moravian Church"
+                    ]
+                ],
+                "part": "noun plural",
+                "word": "Bohemian Brethren"
+            }
+        ],
+        "hit": 1
+    },
+    "carton": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":a box or container usually made of cardboard and often of corrugated cardboard"
+                    ]
+                ],
+                "part": "noun",
+                "word": "carton"
+            },
+            {
+                "definiation": [
+                    [
+                        ":to pack or enclose in a carton",
+                        ":to shape  cartons from cardboard sheets "
+                    ]
+                ],
+                "part": "verb",
+                "word": "carton"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
     "chaperone": {
         "explanations": [
             {
@@ -76,6 +383,25 @@
                 "word": "molecular chaperone"
             }
         ],
+        "hit": 1
+    },
+    "commotion": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":a condition of civil unrest or insurrection ",
+                        ":steady or recurrent motion ",
+                        ":mental excitement or confusion ",
+                        ":an agitated disturbance : #Synonymous: to-do   ",
+                        ":noisy confusion : #Synonymous: agitation "
+                    ]
+                ],
+                "part": "noun",
+                "word": "commotion"
+            }
+        ],
+        "extensions": [],
         "hit": 1
     },
     "confer": {
@@ -128,6 +454,30 @@
         "extensions": [],
         "hit": 1
     },
+    "conscripts": {
+        "explanations": [],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":a  conscripted person (as a military recruit) "
+                    ]
+                ],
+                "part": "noun",
+                "word": "conscript"
+            },
+            {
+                "definiation": [
+                    [
+                        ":to enroll into service by compulsion : #Synonymous: draft   \n  #Ex: was conscripted into the army "
+                    ]
+                ],
+                "part": "verb",
+                "word": "conscript"
+            }
+        ],
+        "hit": 1
+    },
     "consign": {
         "explanations": [
             {
@@ -147,6 +497,50 @@
         "extensions": [],
         "hit": 1
     },
+    "cranium": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: skull  ",
+                        ":the part that encloses the brain : #Synonymous: braincase "
+                    ]
+                ],
+                "part": "noun",
+                "word": "cranium"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "cranky": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":given to fretful fussiness :readily angered when opposed : #Synonymous: crotchety   \n  #Ex: our long wait \u2026 left us a tad cranky      ",
+                        ":marked by eccentricity  \n  #Ex: his bizarre and cranky mix of ideas and beliefs     ",
+                        ":full of twists and turns : #Synonymous: tortuous   \n  #Ex: a cranky road  ",
+                        ":working erratically : #Synonymous: unpredictable   \n  #Ex: a cranky old tractor  ",
+                        ": #Synonymous: crazy   #Synonymous: imbecile "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "cranky"
+            },
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: crank "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "cranky"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
     "croon": {
         "explanations": [
             {
@@ -160,6 +554,38 @@
                 ],
                 "part": "verb",
                 "word": "croon"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "cyborg": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":a bionic human"
+                    ]
+                ],
+                "part": "noun",
+                "word": "cyborg"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "dearth": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ": scarcity that makes   dear  ",
+                        ": #Synonymous: famine  ",
+                        ":an inadequate supply : #Synonymous: lack   \n  #Ex: a dearth of evidence "
+                    ]
+                ],
+                "part": "noun",
+                "word": "dearth"
             }
         ],
         "extensions": [],
@@ -185,6 +611,149 @@
         "extensions": [],
         "hit": 1
     },
+    "disembowel": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":to take out the bowels of : #Synonymous: eviscerate  ",
+                        ":to remove the substance of  \n  #Ex: a program disemboweled by spending cuts "
+                    ]
+                ],
+                "part": "verb",
+                "word": "disembowel"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "dismay": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":to cause to lose courage or resolution (as because of alarm or fear)  \n  #Ex: must not let ourselves be dismayed by the task before us  ",
+                        ": #Synonymous: upset   #Synonymous: perturb   \n  #Ex: were dismayed by the condition of the building "
+                    ]
+                ],
+                "part": "verb",
+                "word": "dismay"
+            },
+            {
+                "definiation": [
+                    [
+                        ":sudden loss of courage or resolution from alarm or fear ",
+                        ":sudden disappointment  ",
+                        ": #Synonymous: perturbation    "
+                    ]
+                ],
+                "part": "noun",
+                "word": "dismay"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "distress": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":seizure and detention of the goods of another as pledge or to obtain satisfaction of a claim by the sale of the goods seized  ",
+                        ":something that is  distrained  ",
+                        ":pain or suffering affecting the body, a bodily part, or the mind : #Synonymous: trouble   \n  #Ex: gastric distress   ",
+                        ":a painful situation : #Synonymous: misfortune  ",
+                        ":a state of danger or desperate need  \n  #Ex: a ship in distress "
+                    ]
+                ],
+                "part": "noun",
+                "word": "distress"
+            },
+            {
+                "definiation": [
+                    [
+                        ":to subject to great strain or difficulties  \n  #Ex: homes distressed by poverty  ",
+                        ":to force or overcome by inflicting pain ",
+                        ":to cause to worry or be troubled : #Synonymous: upset   \n  #Ex: don't let the news distress you  ",
+                        ":to mar (as clothing or wood) deliberately to give an effect of age  \n  #Ex: a distressed table "
+                    ]
+                ],
+                "part": "verb",
+                "word": "distress"
+            },
+            {
+                "definiation": [
+                    [
+                        ":offered for sale at a loss  \n  #Ex: distress merchandise  ",
+                        ":involving distress goods  \n  #Ex: a distress sale "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "distress"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":a respiratory disorder chiefly of newborn premature infants that is characterized by deficiency of the surfactant coating the inner surface of the lungs resulting in labored breathing, lung collapse, and hypoxemia"
+                    ]
+                ],
+                "part": "noun",
+                "word": "respiratory distress syndrome"
+            }
+        ],
+        "hit": 1
+    },
+    "dorky": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":foolishly stupid : #Synonymous: clueless "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "dorky"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "droopy": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: gloomy  ",
+                        ": drooping or tending to   droop "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "droopy"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "dubious": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        " :giving rise to  uncertainty: as   ",
+                        ":of doubtful promise or outcome  \n  #Ex: a dubious plan   ",
+                        ":questionable or  suspect as to true nature or quality   \n  #Ex: the practice is of dubious legality   ",
+                        ":unsettled in opinion : #Synonymous: doubtful   \n  #Ex: I was dubious about the plan "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "dubious"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
     "edifying": {
         "explanations": [],
         "extensions": [
@@ -201,6 +770,22 @@
                 "word": "edify"
             }
         ],
+        "hit": 1
+    },
+    "entrant": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":one that enters ",
+                        ":one that enters a contest"
+                    ]
+                ],
+                "part": "noun",
+                "word": "entrant"
+            }
+        ],
+        "extensions": [],
         "hit": 1
     },
     "epitaph": {
@@ -296,6 +881,97 @@
         "extensions": [],
         "hit": 1
     },
+    "fluster": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":to make tipsy ",
+                        ":to put into a state of agitated confusion : #Synonymous: upset ",
+                        ":to move or behave in an agitated or confused manner"
+                    ]
+                ],
+                "part": "verb",
+                "word": "fluster"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a state of agitated confusion"
+                    ]
+                ],
+                "part": "noun",
+                "word": "fluster"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "flustered": {
+        "explanations": [],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":to make tipsy ",
+                        ":to put into a state of agitated confusion : #Synonymous: upset ",
+                        ":to move or behave in an agitated or confused manner"
+                    ]
+                ],
+                "part": "verb",
+                "word": "fluster"
+            }
+        ],
+        "hit": 1
+    },
+    "gloomy": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":partially or totally dark ",
+                        ":dismally and depressingly dark  \n  #Ex: gloomy weather   ",
+                        ":having a frowning or scowling appearance : #Synonymous: forbidding   \n  #Ex: a gloomy countenance   ",
+                        ":low in spirits : #Synonymous: melancholy  ",
+                        ":causing  gloom :  #Synonymous: depressing   \n  #Ex: a gloomy story   \n  #Ex: a gloomy landscape   ",
+                        ":lacking in promise or hopefulness : #Synonymous: pessimistic   \n  #Ex: gloomy prophecies   \n  #Ex: a gloomy future "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "gloomy"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":a person who is habitually gloomy"
+                    ]
+                ],
+                "part": "noun",
+                "word": "Gloomy Gus"
+            }
+        ],
+        "hit": 1
+    },
+    "grovel": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":to creep with the face to the ground : #Synonymous: crawl ",
+                        ":to lie or creep with the body prostrate in token of subservience or abasement ",
+                        ":to abase oneself",
+                        ":to give oneself over to what is base or unworthy : #Synonymous: wallow   \n  #Ex: groveling in self-pity "
+                    ]
+                ],
+                "part": "verb",
+                "word": "grovel"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
     "growl": {
         "explanations": [
             {
@@ -351,6 +1027,123 @@
         ],
         "hit": 1
     },
+    "guinea": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":an English gold coin issued from 1663 to 1813 and fixed in 1717 at 21 shillings ",
+                        ":a unit of value equal to one pound and one shilling"
+                    ]
+                ],
+                "part": "noun",
+                "word": "guinea"
+            },
+            {
+                "definiation": [
+                    [
+                        "region  W Africa bordering on the Atlantic from Gambia (on   N) to Angola (on   S) ",
+                        "republic  W Africa bordering on the Atlantic; formerly a territory of French West Africa \u273d Conakry  area 94,925 square miles (245,856 square kilometers), pop 10,058,000"
+                    ]
+                ],
+                "part": "geographical name",
+                "word": "Guinea"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":an African bird (Numida meleagris) related to the pheasants, raised for food in many parts of the world, and marked by a bare neck and head and slaty plumage speckled with white ",
+                        ":any of several related birds"
+                    ]
+                ],
+                "part": "noun",
+                "word": "guinea fowl"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a tall African forage grass (Panicum maximum) introduced into tropical America and the southern United States"
+                    ]
+                ],
+                "part": "noun",
+                "word": "guinea grass"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a female guinea fowl ",
+                        ": #Synonymous: guinea fowl "
+                    ]
+                ],
+                "part": "noun",
+                "word": "guinea hen"
+            },
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: grains of paradise "
+                    ]
+                ],
+                "part": "noun",
+                "word": "guinea pepper"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a small stout-bodied short-eared tailless domesticated rodent (Cavia porcellus) of South American origin often kept as a pet and widely used in biological research  called also  cavy   ",
+                        ":a subject of research, experimentation, or testing"
+                    ]
+                ],
+                "part": "noun",
+                "word": "guinea pig"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a slender nematode worm (Dracunculus medinensis) of tropical regions that is parasitic in humans, has no known animal reservoir, and has an adult female that infests subcutaneous tissues and may attain a length of several feet"
+                    ]
+                ],
+                "part": "noun",
+                "word": "guinea worm"
+            },
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: dracunculiasis "
+                    ]
+                ],
+                "part": "noun",
+                "word": "guinea worm disease"
+            },
+            {
+                "definiation": [
+                    [
+                        "republic  W Africa   S of Senegal; until 1974 a Portuguese colony \u273d Bissau  area 13,948 square miles (36,265 square kilometers), pop 1,548,159"
+                    ]
+                ],
+                "part": "geographical name",
+                "word": "Guinea-Bissau"
+            }
+        ],
+        "hit": 1
+    },
+    "impudence": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":the quality or state of being  impudent "
+                    ]
+                ],
+                "part": "noun",
+                "word": "impudence"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
     "incongruity": {
         "explanations": [
             {
@@ -384,6 +1177,61 @@
             }
         ],
         "extensions": [],
+        "hit": 1
+    },
+    "indignation": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":anger aroused by something unjust, unworthy, or mean"
+                    ]
+                ],
+                "part": "noun",
+                "word": "indignation"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "indulgence": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":remission of part or all of the temporal and especially purgatorial punishment that according to Roman Catholicism is due for sins whose eternal punishment has been remitted and whose guilt has been pardoned (as through the sacrament of reconciliation) ",
+                        ":the act of  indulging :the state of being   indulgent  ",
+                        ":an indulgent act  ",
+                        ":an extension of time for payment or performance granted as a favor ",
+                        ":the act of indulging in something ",
+                        ": #Synonymous: self-indulgence   ",
+                        ":something  indulged in   \n  #Ex: walk off gastronomic indulgences    "
+                    ]
+                ],
+                "part": "noun",
+                "word": "indulgence"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":a remission of the entire temporal punishment for sin"
+                    ]
+                ],
+                "part": "noun",
+                "word": "plenary indulgence"
+            },
+            {
+                "definiation": [
+                    [
+                        ":excessive or unrestrained gratification of one's own appetites, desires, or whims"
+                    ]
+                ],
+                "part": "noun",
+                "word": "self-indulgence"
+            }
+        ],
         "hit": 1
     },
     "infantile": {
@@ -430,6 +1278,46 @@
         "extensions": [],
         "hit": 1
     },
+    "irreconcilable": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":impossible to reconcile  \n  #Ex: irreconcilable differences "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "irreconcilable"
+            },
+            {
+                "definiation": [
+                    [
+                        ":one that is irreconcilable ",
+                        ":a member of a group (as a political party) opposing compromise or collaboration"
+                    ]
+                ],
+                "part": "noun",
+                "word": "irreconcilable"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "irrepressible": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":impossible to repress, restrain, or control  \n  #Ex: irrepressible curiosity "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "irrepressible"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
     "jeer": {
         "explanations": [
             {
@@ -453,6 +1341,34 @@
             }
         ],
         "extensions": [],
+        "hit": 2
+    },
+    "lament": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":to mourn aloud : #Synonymous: wail ",
+                        ":to express sorrow, mourning, or regret for often demonstratively : #Synonymous: mourn  ",
+                        ":to regret strongly"
+                    ]
+                ],
+                "part": "verb",
+                "word": "lament"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a crying out in grief : #Synonymous: wailing  ",
+                        ": #Synonymous: dirge   #Synonymous: elegy  ",
+                        ": #Synonymous: complaint "
+                    ]
+                ],
+                "part": "noun",
+                "word": "lament"
+            }
+        ],
+        "extensions": [],
         "hit": 1
     },
     "luscious": {
@@ -473,6 +1389,27 @@
         ],
         "extensions": [],
         "hit": 2
+    },
+    "mealy": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":containing meal : #Synonymous: farinaceous  ",
+                        ":soft, dry, and friable ",
+                        ":covered with meal or with fine granules  ",
+                        ":flecked with another color  ",
+                        ": #Synonymous: spotty   #Synonymous: uneven   ",
+                        ": #Synonymous: pallid   #Synonymous: blanched   \n  #Ex: a mealy complexion  ",
+                        ": #Synonymous: mealymouthed "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "mealy"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
     },
     "menopause": {
         "explanations": [
@@ -501,6 +1438,23 @@
         ],
         "hit": 1
     },
+    "monolith": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":a single great stone often in the form of an obelisk or column ",
+                        ":a massive structure ",
+                        ":an organized whole that acts as a single unified powerful or influential force"
+                    ]
+                ],
+                "part": "noun",
+                "word": "monolith"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
     "nasally": {
         "explanations": [],
         "extensions": [
@@ -515,6 +1469,124 @@
                 ],
                 "part": "adjective",
                 "word": "nasal"
+            }
+        ],
+        "hit": 1
+    },
+    "nip": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":to catch hold of and squeeze tightly between two surfaces, edges, or points : #Synonymous: pinch   #Synonymous: bite   \n  #Ex: the dog nipped his ankle   ",
+                        ":to pinch in (as a garment)  \n  #Ex: a dress nipped at the waist  ",
+                        ":to sever by or as if by pinching sharply  ",
+                        ":to destroy the growth, progress, or fulfillment of  \n  #Ex: nipped in the bud  ",
+                        ":to injure or make numb with cold : #Synonymous: chill  ",
+                        ": #Synonymous: snatch   #Synonymous: steal  ",
+                        ":to defeat by a small margin",
+                        ":to move briskly, nimbly, or quickly ",
+                        ":to make a quick trip"
+                    ]
+                ],
+                "part": "verb",
+                "word": "nip"
+            },
+            {
+                "definiation": [
+                    [
+                        " :something that nips: as  ",
+                        ":a sharp biting comment  ",
+                        ":a sharp stinging cold  \n  #Ex: a nip in the air   ",
+                        ":a biting or pungent flavor : #Synonymous: tang  ",
+                        ":the act of nipping : #Synonymous: pinch   #Synonymous: bite  ",
+                        ":the region of a squeezing or crushing device (as a calender) where the rolls or jaws are closest together ",
+                        ":a small portion"
+                    ]
+                ],
+                "part": "noun",
+                "word": "nip"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a small quantity of liquor : #Synonymous: sip  ",
+                        ":a very small bottle of liquor"
+                    ]
+                ],
+                "part": "noun",
+                "word": "nip"
+            },
+            {
+                "definiation": [
+                    [
+                        ":to take liquor in nips : #Synonymous: tipple "
+                    ]
+                ],
+                "part": "verb",
+                "word": "nip"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":being so close that the lead or advantage shifts rapidly from one opponent to another"
+                    ]
+                ],
+                "part": "adjective or adverb",
+                "word": "nip and tuck"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a spring from a supine position to a standing position"
+                    ]
+                ],
+                "part": "noun",
+                "word": "nip-up"
+            }
+        ],
+        "hit": 1
+    },
+    "nipping": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: sharp   #Synonymous: chilling "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "nipping"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":to catch hold of and squeeze tightly between two surfaces, edges, or points : #Synonymous: pinch   #Synonymous: bite   \n  #Ex: the dog nipped his ankle   ",
+                        ":to pinch in (as a garment)  \n  #Ex: a dress nipped at the waist  ",
+                        ":to sever by or as if by pinching sharply  ",
+                        ":to destroy the growth, progress, or fulfillment of  \n  #Ex: nipped in the bud  ",
+                        ":to injure or make numb with cold : #Synonymous: chill  ",
+                        ": #Synonymous: snatch   #Synonymous: steal  ",
+                        ":to defeat by a small margin",
+                        ":to move briskly, nimbly, or quickly ",
+                        ":to make a quick trip"
+                    ]
+                ],
+                "part": "verb",
+                "word": "nip"
+            },
+            {
+                "definiation": [
+                    [
+                        ":to take liquor in nips : #Synonymous: tipple "
+                    ]
+                ],
+                "part": "verb",
+                "word": "nip"
             }
         ],
         "hit": 1
@@ -605,6 +1677,21 @@
         ],
         "hit": 1
     },
+    "nystagmus": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":a rapid involuntary oscillation of the eyeballs"
+                    ]
+                ],
+                "part": "noun",
+                "word": "nystagmus"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
     "obituary": {
         "explanations": [
             {
@@ -655,6 +1742,95 @@
         ],
         "hit": 1
     },
+    "pastry": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: paste      ",
+                        ":sweet baked goods made of dough having a high fat content ",
+                        ":a piece of pastry"
+                    ]
+                ],
+                "part": "noun",
+                "word": "pastry"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":a pastry made of a rich raised dough"
+                    ]
+                ],
+                "part": "noun",
+                "word": "Danish pastry"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a rich pastry filled especially with custard or fruit"
+                    ]
+                ],
+                "part": "noun",
+                "word": "French pastry"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a pastry dough containing many alternating layers of butter and dough or the light flaky pastry made from it  called also  puff paste  "
+                    ]
+                ],
+                "part": "noun",
+                "word": "puff pastry"
+            }
+        ],
+        "hit": 1
+    },
+    "pathological": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":of or relating to  pathology  ",
+                        ":altered or caused by disease ",
+                        ":indicative of disease ",
+                        ":being such to a degree that is extreme, excessive, or markedly abnormal  \n  #Ex: a pathological liar   \n  #Ex: pathological fear "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "pathological"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "penance": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":an act of self-abasement, mortification, or devotion performed to show sorrow or repentance for sin ",
+                        ":a sacramental rite that is practiced in Roman, Eastern, and some Anglican churches and that consists of private confession, absolution, and a penance directed by the confessor ",
+                        ":something (as a hardship or  penalty) resembling an act of penance (as in compensating for an offense) "
+                    ]
+                ],
+                "part": "noun",
+                "word": "penance"
+            },
+            {
+                "definiation": [
+                    [
+                        ":to impose penance on"
+                    ]
+                ],
+                "part": "verb",
+                "word": "penance"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
     "peril": {
         "explanations": [
             {
@@ -689,7 +1865,7 @@
                 "word": "yellow peril"
             }
         ],
-        "hit": 1
+        "hit": 3
     },
     "perilously": {
         "explanations": [],
@@ -704,6 +1880,23 @@
                 "word": "perilous"
             }
         ],
+        "hit": 1
+    },
+    "philistine": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":a native or inhabitant of ancient  Philistia  ",
+                        ":a person who is guided by materialism and is usually disdainful of intellectual or artistic values  ",
+                        ":one uninformed in a special area of knowledge"
+                    ]
+                ],
+                "part": "noun",
+                "word": "Philistine"
+            }
+        ],
+        "extensions": [],
         "hit": 1
     },
     "plump": {
@@ -775,6 +1968,105 @@
         "extensions": [],
         "hit": 1
     },
+    "posture": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":the position or bearing of the body whether characteristic or assumed for a special purpose  \n  #Ex: erect posture   ",
+                        ":the pose of a model or artistic figure ",
+                        ":state or condition at a given time especially with respect to capability in particular circumstances  \n  #Ex: maintain a competitive posture in the market  ",
+                        ":a conscious mental or outward behavioral attitude"
+                    ]
+                ],
+                "part": "noun",
+                "word": "posture"
+            },
+            {
+                "definiation": [
+                    [
+                        ":to cause to assume a given posture : #Synonymous: pose ",
+                        ":to assume a posture ",
+                        ":to strike a pose for effect ",
+                        ":to assume an artificial or pretended attitude : #Synonymous: attitudinize "
+                    ]
+                ],
+                "part": "verb",
+                "word": "posture"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "procure": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":to get  possession of :obtain by particular care and effort   ",
+                        ":to get and make available for promiscuous sexual intercourse ",
+                        ": #Synonymous: bring about   #Synonymous: achieve   \n  #Ex: procured the prisoner's release ",
+                        ":to procure women"
+                    ]
+                ],
+                "part": "verb",
+                "word": "procure"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "pronounced": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":strongly marked : #Synonymous: decided   \n  #Ex: a pronounced dislike "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "pronounced"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":to declare officially or ceremoniously  \n  #Ex: the minister pronounced them husband and wife  ",
+                        ":to declare authoritatively or as an opinion  \n  #Ex: doctors pronounced him fit to resume duties  ",
+                        ":to employ the organs of speech to produce  \n  #Ex: pronounce these words  ",
+                        ":to say correctly  \n  #Ex: I can't pronounce his name   ",
+                        ":to represent in printed characters the spoken counterpart of (an orthographic representation)  \n  #Ex: both dictionaries pronounce clique the same  ",
+                        ": #Synonymous: recite   \n  #Ex: speak the speech, I pray you, as I pronounced it to you    ",
+                        ":to pass judgment ",
+                        ":to produce the components of spoken language"
+                    ]
+                ],
+                "part": "verb",
+                "word": "pronounce"
+            }
+        ],
+        "hit": 1
+    },
+    "prudent": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        " :characterized by, arising from, or showing  prudence: as   ",
+                        ":marked by wisdom or  judiciousness   \n  #Ex: prudent advice   ",
+                        ": shrewd in the management of practical affairs   \n  #Ex: prudent investors   ",
+                        ":marked by circumspection : #Synonymous: discreet   ",
+                        ": #Synonymous: provident   #Synonymous: frugal  "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "prudent"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
     "prune": {
         "explanations": [
             {
@@ -800,6 +2092,88 @@
             }
         ],
         "extensions": [],
+        "hit": 1
+    },
+    "pulverization": {
+        "explanations": [],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":to reduce (as by crushing, beating, or grinding) to very small particles : #Synonymous: atomize   \n  #Ex: pulverize rock  ",
+                        ": #Synonymous: annihilate   #Synonymous: demolish ",
+                        ":to become  pulverized "
+                    ]
+                ],
+                "part": "verb",
+                "word": "pulverize"
+            }
+        ],
+        "hit": 1
+    },
+    "quench": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: put out   #Synonymous: extinguish   ",
+                        ":to put out the light or fire of  \n  #Ex: quench glowing coals with water   ",
+                        ":to cool (as heated metal) suddenly by immersion (as in oil or water)  ",
+                        ":to cause to lose heat or warmth  \n  #Ex: you have quenched the warmth of France toward you     ",
+                        ":to bring (something immaterial) to an end typically by satisfying, damping, cooling, or decreasing  \n  #Ex: a rational understanding of the laws of nature can quench impossible desires      \n  #Ex: the praise that quenches all desire to read the book      ",
+                        ":to terminate by or as if by destroying : #Synonymous: eliminate   \n  #Ex: the Commonwealth party quenched a whole generation of play-acting      \n  #Ex: quench a rebellion   ",
+                        ":to relieve or satisfy with liquid  \n  #Ex: quenched his thirst at a wayside spring ",
+                        ":to become extinguished : #Synonymous: cool  ",
+                        ":to become calm : #Synonymous: subside "
+                    ]
+                ],
+                "part": "verb",
+                "word": "quench"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "ragged": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":roughly unkempt ",
+                        ":having an irregular edge or outline ",
+                        ":torn or worn to tatters  ",
+                        ":worn-out from stress and strain  \n  #Ex: ran herself ragged  ",
+                        ":wearing tattered clothes ",
+                        ": #Synonymous: straggly   ",
+                        ":executed in an irregular or uneven manner  ",
+                        ": #Synonymous: harsh   #Synonymous: dissonant "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "ragged"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":to rail at : #Synonymous: scold  ",
+                        ": #Synonymous: torment   #Synonymous: tease "
+                    ]
+                ],
+                "part": "verb",
+                "word": "rag"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a perennial herb (Lychnis flos-cuculi) of the pink family cultivated for its pink flowers with narrow-lobed petals"
+                    ]
+                ],
+                "part": "noun",
+                "word": "ragged robin"
+            }
+        ],
         "hit": 1
     },
     "relish": {
@@ -896,6 +2270,80 @@
         ],
         "hit": 1
     },
+    "revel": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":to take part in a revel : #Synonymous: carouse  ",
+                        ":to take intense pleasure or satisfaction  \n  #Ex: reveled in the quiet after everyone had gone "
+                    ]
+                ],
+                "part": "verb",
+                "word": "revel"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a usually wild party or celebration"
+                    ]
+                ],
+                "part": "noun",
+                "word": "revel"
+            },
+            {
+                "definiation": [
+                    [
+                        " see  tallinn  "
+                    ]
+                ],
+                "part": "geographical name",
+                "word": "Revel"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        "city & port \u273d of Estonia pop 398,434"
+                    ]
+                ],
+                "part": "geographical name",
+                "word": "Tallinn"
+            }
+        ],
+        "hit": 1
+    },
+    "ruckus": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: row   #Synonymous: disturbance   \n  #Ex: raise a ruckus "
+                    ]
+                ],
+                "part": "noun",
+                "word": "ruckus"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "ruffian": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":a brutal person : #Synonymous: bully "
+                    ]
+                ],
+                "part": "noun",
+                "word": "ruffian"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
     "saccharine": {
         "explanations": [
             {
@@ -913,7 +2361,7 @@
             }
         ],
         "extensions": [],
-        "hit": 1
+        "hit": 2
     },
     "scowl": {
         "explanations": [
@@ -956,24 +2404,19 @@
         "extensions": [],
         "hit": 1
     },
-    "self-loathing": {
-        "explanations": [],
-        "extensions": [
+    "scruff": {
+        "explanations": [
             {
                 "definiation": [
                     [
-                        ":oneself or itself \n  #Ex: self-supporting",
-                        ":of oneself or itself \n  #Ex: self-abasement",
-                        ":by oneself or itself \n  #Ex: self-propelled  \n  #Ex: self-acting",
-                        ":to, with, for, or toward oneself or itself \n  #Ex: self-consistent  \n  #Ex: self-addressed  \n  #Ex: self-love",
-                        ":of or in oneself or itself inherently \n  #Ex: self-evident",
-                        ":from or by means of oneself or itself \n  #Ex: self-fertile"
+                        ":the back of the neck : #Synonymous: nape "
                     ]
                 ],
-                "part": "combining form",
-                "word": "self-"
+                "part": "noun",
+                "word": "scruff"
             }
         ],
+        "extensions": [],
         "hit": 1
     },
     "slander": {
@@ -1001,6 +2444,84 @@
         "extensions": [],
         "hit": 1
     },
+    "slosh": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: slush     ",
+                        ":the slap or splash of liquid"
+                    ]
+                ],
+                "part": "noun",
+                "word": "slosh"
+            },
+            {
+                "definiation": [
+                    [
+                        ":to flounder or splash through water, mud, or slush ",
+                        ":to move with a splashing motion  \n  #Ex: the water sloshed around him    ",
+                        ":to splash about in liquid ",
+                        ":to splash (a liquid) about or on something ",
+                        ":to splash with liquid"
+                    ]
+                ],
+                "part": "verb",
+                "word": "slosh"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "smolder": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":to burn sluggishly, without flame, and often with much smoke  ",
+                        ":to be consumed by  smoldering   \n  #Usage: often used with out  ",
+                        ":to exist in a state of suppressed activity  \n  #Ex: hostilities smoldered for years  ",
+                        ":to show suppressed anger, hate, or jealousy  \n  #Ex: eyes smoldering with hate "
+                    ]
+                ],
+                "part": "verb",
+                "word": "smolder"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "snout": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":a long projecting nose (as of a swine)  ",
+                        ":an anterior prolongation of the head of various animals (as a weevil) : #Synonymous: rostrum   ",
+                        ":the human nose especially when large or grotesque ",
+                        " :something resembling an animal's snout in position, function, or shape: as  ",
+                        ": #Synonymous: prow   ",
+                        ": #Synonymous: nozzle   ",
+                        ":the terminal face of a glacier "
+                    ]
+                ],
+                "part": "noun",
+                "word": "snout"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: weevil "
+                    ]
+                ],
+                "part": "noun",
+                "word": "snout beetle"
+            }
+        ],
+        "hit": 1
+    },
     "snugly": {
         "explanations": [],
         "extensions": [
@@ -1022,6 +2543,36 @@
         ],
         "hit": 1
     },
+    "sobat": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        "river 460 miles (740 kilometers)  W Ethiopia &   SE Sudan flowing   W into White Nile River "
+                    ]
+                ],
+                "part": "geographical name",
+                "word": "Sobat"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "sourpuss": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: grouch   #Synonymous: killjoy "
+                    ]
+                ],
+                "part": "noun",
+                "word": "sourpuss"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
     "spurned": {
         "explanations": [],
         "extensions": [
@@ -1041,6 +2592,23 @@
         ],
         "hit": 1
     },
+    "stagnant": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":not flowing in a current or stream  \n  #Ex: stagnant water   ",
+                        ": #Synonymous: stale   \n  #Ex: long disuse had made the air stagnant and foul     ",
+                        ":not advancing or developing  \n  #Ex: a stagnant economy "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "stagnant"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
     "standoffish": {
         "explanations": [
             {
@@ -1054,6 +2622,92 @@
             }
         ],
         "extensions": [],
+        "hit": 1
+    },
+    "strain": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: lineage   #Synonymous: ancestry   ",
+                        ":a group of presumed common ancestry with clear-cut physiological but usually not morphological distinctions  \n  #Ex: a high-yielding strain of winter wheat  ",
+                        ":a specified infraspecific group (as a stock, line, or ecotype)  ",
+                        ": #Synonymous: kind   #Synonymous: sort   \n  #Ex: discussions of a lofty strain  ",
+                        ":inherited or inherent character, quality, or disposition  \n  #Ex: a strain of madness in the family   ",
+                        ": #Synonymous: trace   #Synonymous: streak   \n  #Ex: a strain of fanaticism  ",
+                        ": #Synonymous: tune   #Synonymous: air   ",
+                        ":a passage of verbal or musical expression  ",
+                        ":a stream or outburst of forceful or impassioned speech ",
+                        ":the tenor, pervading note, burden, or tone of an utterance or of a course of action or conduct  ",
+                        ": #Synonymous: mood   #Synonymous: temper "
+                    ]
+                ],
+                "part": "noun",
+                "word": "strain"
+            },
+            {
+                "definiation": [
+                    [
+                        ":to draw tight :cause to fit firmly  \n  #Ex: strain the bandage over the wound   ",
+                        ":to stretch to maximum extension and tautness  \n  #Ex: strain a canvas over a frame  ",
+                        ":to exert (as oneself) to the utmost  ",
+                        ":to injure by overuse, misuse, or excessive pressure  \n  #Ex: strained his back   ",
+                        ":to cause a change of form or size in (a body) by application of external force ",
+                        " :to squeeze or clasp tightly: as  ",
+                        ": #Synonymous: hug   ",
+                        ":to compress painfully : #Synonymous: constrict   ",
+                        ":to cause to pass through a  strainer :  #Synonymous: filter   ",
+                        ":to remove by  straining   \n  #Ex: strain lumps out of the gravy  ",
+                        ":to stretch beyond a proper limit  \n  #Ex: that story strains my credulity  ",
+                        ":to squeeze out : #Synonymous: extort ",
+                        ":to make violent efforts : #Synonymous: strive   \n  #Ex: has to strain to reach the high notes   ",
+                        ":to pull against resistance  \n  #Ex: a dog straining at its leash   ",
+                        ":to contract the muscles forcefully in attempting to defecate  \n  #Usage: often used in the phrase strain at stool  ",
+                        ":to pass through or as if through a strainer  \n  #Ex: the liquid strains readily  ",
+                        ":to make great difficulty or resistance : #Synonymous: balk "
+                    ]
+                ],
+                "part": "verb",
+                "word": "strain"
+            },
+            {
+                "definiation": [
+                    [
+                        " :an act of  straining or the condition of being   strained: as   ",
+                        ":bodily injury from excessive tension, effort, or use  \n  #Ex: heart strain  ",
+                        ":one resulting from a wrench or twist and involving undue stretching of muscles or ligaments  \n  #Ex: back strain   ",
+                        ":excessive or difficult exertion or labor  ",
+                        ":excessive physical or mental tension ",
+                        ":a force, influence, or factor causing such tension  \n  #Ex: a strain on the marriage   ",
+                        ":deformation of a material body under the action of applied forces  ",
+                        ":an unusual reach, degree, or intensity : #Synonymous: pitch  ",
+                        ":a strained interpretation of something said or written"
+                    ]
+                ],
+                "part": "noun",
+                "word": "strain"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: extensometer "
+                    ]
+                ],
+                "part": "noun",
+                "word": "strain gauge"
+            },
+            {
+                "definiation": [
+                    [
+                        ":any of various painful musculoskeletal disorders (as carpal tunnel syndrome or tendinitis) caused by cumulative damage to muscles, tendons, ligaments, nerves, or joints (as of the hand or shoulder) from highly repetitive movements  called also  repetitive stress injury  "
+                    ]
+                ],
+                "part": "noun",
+                "word": "repetitive strain injury"
+            }
+        ],
         "hit": 1
     },
     "stroll": {
@@ -1071,6 +2725,127 @@
             }
         ],
         "extensions": [],
+        "hit": 1
+    },
+    "subliminal": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":inadequate to produce a sensation or a perception ",
+                        ":existing or functioning below the threshold of consciousness  \n  #Ex: the subliminal mind   \n  #Ex: subliminal advertising "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "subliminal"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "sulk": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":to be moodily silent"
+                    ]
+                ],
+                "part": "verb",
+                "word": "sulk"
+            },
+            {
+                "definiation": [
+                    [
+                        ":the state of one  sulking   \n  #Usage: often used in plural  \n  #Ex: had a case of the sulks   ",
+                        ":a  sulky mood or spell   \n  #Ex: in a sulk "
+                    ]
+                ],
+                "part": "noun",
+                "word": "sulk"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "tatter": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":to make ragged",
+                        ":to become ragged"
+                    ]
+                ],
+                "part": "verb",
+                "word": "tatter"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a part torn and left hanging : #Synonymous: shred  ",
+                        ": tattered clothing :  #Synonymous: rags "
+                    ]
+                ],
+                "part": "noun",
+                "word": "tatter"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "taut": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":having no give or slack :tightly drawn  \n  #Ex: a taut rope   ",
+                        ": #Synonymous: high-strung   #Synonymous: tense   \n  #Ex: taut nerves  ",
+                        ":kept in proper order or condition  \n  #Ex: a taut ship   ",
+                        ":not loose or flabby  \n  #Ex: taut muscles   ",
+                        ":marked by economy of structure and detail  \n  #Ex: a taut story "
+                    ]
+                ],
+                "part": "adjective",
+                "word": "taut"
+            },
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: mat   #Synonymous: tangle "
+                    ]
+                ],
+                "part": "verb",
+                "word": "taut"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":same  \n  #Ex: tautomerism   \n  #Ex: tautonym "
+                    ]
+                ],
+                "part": "combining form",
+                "word": "taut-"
+            }
+        ],
+        "hit": 1
+    },
+    "throbbing": {
+        "explanations": [],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":to pulsate or pound with abnormal force or rapidity ",
+                        ":to beat or vibrate rhythmically"
+                    ]
+                ],
+                "part": "verb",
+                "word": "throb"
+            }
+        ],
         "hit": 1
     },
     "tinged": {
@@ -1187,6 +2962,44 @@
         "extensions": [],
         "hit": 1
     },
+    "weasel": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":any of various small slender active carnivorous mammals (genus Mustela of the family Mustelidae, the weasel family) that are able to prey on animals (as rabbits) larger than themselves, are mostly brown with white or yellowish underparts, and in northern forms turn white in winter  compare  ermine  1a    ",
+                        ":a light self-propelled tracked vehicle built either for traveling over snow, ice, or sand or as an amphibious vehicle ",
+                        ":a sneaky, untrustworthy, or insincere person"
+                    ]
+                ],
+                "part": "noun",
+                "word": "weasel"
+            },
+            {
+                "definiation": [
+                    [
+                        ":to use weasel words : #Synonymous: equivocate  ",
+                        ":to escape from or evade a situation or obligation  \n  #Usage: often used with out ",
+                        ":to manipulate shiftily"
+                    ]
+                ],
+                "part": "verb",
+                "word": "weasel"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":a word used in order to evade or retreat from a direct or forthright statement or position"
+                    ]
+                ],
+                "part": "noun",
+                "word": "weasel word"
+            }
+        ],
+        "hit": 1
+    },
     "whim": {
         "explanations": [
             {
@@ -1266,5 +3079,104 @@
             }
         ],
         "hit": 2
+    },
+    "yank": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ": #Synonymous: yankee "
+                    ]
+                ],
+                "part": "noun",
+                "word": "Yank"
+            },
+            {
+                "definiation": [
+                    [
+                        ":to pull on something with a quick vigorous movement",
+                        ":to pull or extract with a quick vigorous movement ",
+                        ":to remove in or as if in an abrupt manner  \n  #Ex: yanked the story from the evening edition "
+                    ]
+                ],
+                "part": "verb",
+                "word": "yank"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a strong sudden pull : #Synonymous: jerk "
+                    ]
+                ],
+                "part": "noun",
+                "word": "yank"
+            }
+        ],
+        "extensions": [],
+        "hit": 1
+    },
+    "zebra": {
+        "explanations": [
+            {
+                "definiation": [
+                    [
+                        ":any of several fleet African mammals (Equus burchelli, E. grevyi, and E. zebra) related to the horse but distinctively and conspicuously patterned in stripes of black or dark brown and white or buff ",
+                        ": #Synonymous: referee     ",
+                        ": #Synonymous: zebra crossing "
+                    ]
+                ],
+                "part": "noun",
+                "word": "zebra"
+            }
+        ],
+        "extensions": [
+            {
+                "definiation": [
+                    [
+                        ":a crosswalk marked by a series of broad white stripes to indicate a crossing point at which pedestrians have the right of way"
+                    ]
+                ],
+                "part": "noun",
+                "word": "zebra crossing"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a small Australian waxbill (Taeniopygia guttata syn. Poephila guttata) that is chiefly gray above and white below with a red or orange bill, a black-and-white barred tail, and in the male a black-barred throat and that is often kept as a cage bird"
+                    ]
+                ],
+                "part": "noun",
+                "word": "zebra finch"
+            },
+            {
+                "definiation": [
+                    [
+                        ":any of various barred fishes ",
+                        ":a very small blue-and-silver-striped Indian danio (Danio rerio syn. Brachydanio rerio) often kept in the tropical aquarium"
+                    ]
+                ],
+                "part": "noun",
+                "word": "zebra fish"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a chiefly freshwater Eurasian lamellibranch mollusk (Dreissena polymorpha) that was accidentally introduced into the Great Lakes and has spread to other waterways where it colonizes and clogs water intake pipes and competes with native fish for food"
+                    ]
+                ],
+                "part": "noun",
+                "word": "zebra mussel"
+            },
+            {
+                "definiation": [
+                    [
+                        ":a zebra (Equus grevyi) of eastern Africa with narrow stripes and a white belly"
+                    ]
+                ],
+                "part": "noun",
+                "word": "Grevy's zebra"
+            }
+        ],
+        "hit": 1
     }
 }

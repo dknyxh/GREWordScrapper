@@ -2,25 +2,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from key import *
 import json
-"""
-<entry id="test[4]">
-<ew>test</ew>
-<subj>ZI</subj>
-<hw hindex="4">test</hw>
-<fl>noun</fl>
-<et>
-Latin
-<it>testa</it>
-shell
-</et>
-<def>
-<date>circa 1842</date>
-<dt>
-:an external hard or firm covering (as a shell) of many invertebrates (as a foraminifer or a mollusk)
-</dt>
-</def>
-</entry>
-"""
+
 def process_dt(dt):
     return_str = ""
     if dt.text:
@@ -46,91 +28,6 @@ def process_dt(dt):
     elif dt.tag == 'aq':
         return_str = ""
     return return_str
-
-    """
-
-    {bc}
-    BOLDFACE COLON (has special significance)
-    -- requires no-break space after
-
-    <sx>...</sx>    (text = small caps except after <sxn>)
-    | SYNONYMOUS CROSS REF TARGET --small caps
-    |  (small caps ends with first </sx> or <sxn> tag)
-    | -- may contain one or more <sxn> subfields
-    | -- single word space follows unless COMMA RULE applies
-    |
-    |<sxn>...</sxn> (text = roman)
-    |  SYNONYMOUS CROSS REF SENSE NUMBER 
-    |  (defaults out of small caps to normal roman)
-    |  if two or more <sxn> fields occur together
-    |   they must be separated by a generated comma (+ space)
-
-    <un>...</un>    (text = roman)
-    | USAGE NOTE, following or replacing defining text;
-    | first occurrence introduced by a light em dash 
-    |   (implied by the opening tag)    
-    | <un> field may contain one or more <vi> fields
-    | - followed by single space unless COMMA RULE applies
-
-    <ca>...</ca>    (text = roman)
-    | CALLED ALSO element; 
-    | contains words "called also " and one or more <cat> subfields
-    |   and possibly <pr> fields
-    |  -- first occurrence, if there is no prior <un> field, 
-    |    generates opening light em dash
-    | - followed by single space unless COMMA RULE applies
-    |
-    |<cat>...</cat> (text = italic)
-    |  CALLED ALSO TARGET
-    |  Two or more <cat> fields need to be 
-    |    separated by a generated comma
-    |   -- if a <pr> field comes between two <cat> fields
-    |   the comma separates <pr> field from following <cat> field
-
-    <vi>...</vi>    (text = roman)
-    |VERBAL ILLUSTRATION
-    |-- tags must generate opening and closing angle brackets
-    | may contain <aq> subfield
-    | -- single word space follows <vi> field
-    |
-    |<aq>...</aq>   (text = roman)
-    |  AUTHOR QUOTED 
-    |  --opening tag must generate lightface em dash, 
-    |  (space before, no space after)
-
-    <dx>...</dx>    (text = roman)
-    | DIRECTIONAL CROSS-REFERENCE
-    | -- contains words "see" or "compare" and <dxt> subfield(s)
-    | -- single word space follows <dx> field unless SEMICOLON RULE applies
-    | -- first occurrence (if there is no prior <un> or <ca>) 
-    |       generates initial light em dash;
-    | See COMMA RULE above
-    |
-    |<dxt>...</dxt> (text = small caps)
-    | target word/element; 
-    | (small caps ends with first </dxt> or <dxn> tag)  
-    | -- <dxt> field may contain <dxn> subfield
-    |
-    |<dxn>...</dxn> (text = roman)
-    |  DIRECTIONAL CROSS REF NUMBER
-    |  (defaults out of small caps to normal roman)
-    |  -- used for cross-ref sense number (numeral) or 
-    |  a word like "table" or "illustration" that is part 
-    |  of the target
-
-    |<sd>...</sd>   (text = italic)
-    | SENSE DIVIDER ("also", "esp", "specif", "broadly") 
-    | -- opening tag must generate a semicolon (+ space) to
-    |   separate this from previous text
-    | -- single word space follows, unless COMMA RULE applies
-
-    <math></math>   (no text)
-        empty field to mark place within the <dt> field for 
-        inserting math formula id'd in <formula> field
-
-"""
-
-
 
 def process_def(definiation):
     return_list = []
@@ -210,10 +107,19 @@ def search_word(user_input, database):
     input_list = user_input.strip().split('@')
     word = input_list[0]
     should_show_extension = False
+    should_update = False
     if len(input_list) > 1:
-        should_show_extension = input_list[1] == 'e'
+        if input_list[1] == 'e':
+            should_show_extension = True
+        elif input_list[1] == 'r':
+            if word in database:
+                del database[word]
+                print('Word deleted')
+                return
+        elif input_list[1] == 'u':
+            should_update = True
     print("You are searching for {}".format(word))
-    if word in stored_json:
+    if word in stored_json and not should_update:
         stored_json[word]['hit'] += 1
         print("Find local cache:")
         print("You have search for {} times".format(word), stored_json[word]['hit'])
@@ -241,7 +147,10 @@ def search_word(user_input, database):
                 else:
                     print_suggestions(suggestions)
             else:
-                word_dict = {'explanations':explanations, 'extensions':extensions, 'hit':1}
+                hit_count = 1
+                if word in database:
+                    hit_count = database[word]['hit'] + 1
+                word_dict = {'explanations':explanations, 'extensions':extensions, 'hit':hit_count}
                 database[word] = word_dict
                 print_word(word_dict, extensions = should_show_extension)
         except Exception as e:
@@ -252,19 +161,52 @@ def save(database, filename):
     json.dump(database,f ,sort_keys=True,indent=4, separators=(',', ': '))
     f.close()
 
+def search_word_longman(user_input,database):
+    word = user_input.stirp()
+    url = "http://api.pearson.com/v2/dictionaries/ldoce5/entries?headword={}".format(word)
+    try:
+        response = urllib.request.urlopen(url)
+        response_str = response.read()
+        response_json = json.loads(response_str)
+        if response_json and "results" in response_json and len(response_json["results"]) > 0:
+            explanations = []
+            for each_explanation in response_json['results']:
+                new_explanatoin = {}
+                if "headword" in each_explanation:
+                    new_explanatoin["word"] = each_explanation["headword"]
+                if "part_of_speech" in each_explanation:
+                    new_explanatoin["part"] = each_explanation["part_of_speech"]
+                new_explanatoin["defination"] = [];
+                for each_sense in each_explanation["senses"]:
+                    for each_defination in each_sense["defination"]:
+                        new_explanatoin["defination"].append([each_defination])
+            word_dict = {"explanations":explanation, 'extensions':[], 'hit':0}
+            database[word] = word_dict
+            print_word(word_dict, extensions = False)
+    except Exception as e:
+        print("Error", e)
+
+
+
 if __name__ == '__main__':
     stored_json = load_json(storage_file)
+    longman_json = load_json(longman_file)
     if stored_json is None:
         stored_json = {}
+    if longman_json is None:
+        longman_json = {}
 
     while 1:
         entered = input("Please enter your word\n")
         if not entered:
                 break
         else:
+            print("****Merriem webster*****")
             search_word(entered, stored_json)
             save(stored_json, storage_file)
-            print()
+            print("****Longman*****")
+            search_word_longman(entered, longman_json)
+            save(longman_json, longman_file)
 
 
 
