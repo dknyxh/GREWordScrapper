@@ -29,21 +29,21 @@ def process_dt(dt):
         return_str = ""
     return return_str
 
-def process_def(definiation):
+def process_def(definition):
     return_list = []
-    for each_tag in definiation:
+    for each_tag in definition:
         if each_tag.tag == "dt":
             return_list.append(process_dt(each_tag))
     return return_list
 
 def process_entry(entry):
-    entry_dict = {"definiation":[]}
+    entry_dict = {"definition":[]}
     entry_dict["word"] = entry[0].text
     fl_tag = entry.find('fl')   
     if fl_tag is not None:
         entry_dict["part"] = fl_tag.text
     for eachDef in entry.findall('def'):
-        entry_dict["definiation"].append(process_def(eachDef))
+        entry_dict["definition"].append(process_def(eachDef))
     return entry_dict
 
 def process_root(root):
@@ -60,8 +60,8 @@ def load_json(filename):
         print(e)
         return None
 
-def print_defination(definiation):
-    for each_tag in definiation:
+def print_definition(definition):
+    for each_tag in definition:
         print(each_tag)
 
 def print_explanation(explanation):
@@ -69,9 +69,9 @@ def print_explanation(explanation):
     if 'part' in explanation:
         print("@This is {}".format(explanation['part']))
     i = 0
-    for each in explanation['definiation']:
+    for each in explanation['definition']:
         print("#{}. ".format(str(i)))
-        print_defination(each)
+        print_definition(each)
         i+=1
     
 
@@ -162,7 +162,13 @@ def save(database, filename):
     f.close()
 
 def search_word_longman(user_input,database):
-    word = user_input.stirp()
+    input_list = user_input.strip().split('@')
+    word = input_list[0]
+    should_show_extension = False
+    if len(input_list) > 1:
+        if input_list[1] == 'e':
+            should_show_extension = True
+
     url = "http://api.pearson.com/v2/dictionaries/ldoce5/entries?headword={}".format(word)
     try:
         response = urllib.request.urlopen(url)
@@ -170,19 +176,35 @@ def search_word_longman(user_input,database):
         response_json = json.loads(response_str)
         if response_json and "results" in response_json and len(response_json["results"]) > 0:
             explanations = []
+            extensions = []
             for each_explanation in response_json['results']:
                 new_explanatoin = {}
+                add_to_extensions = False
                 if "headword" in each_explanation:
                     new_explanatoin["word"] = each_explanation["headword"]
+                else:
+                    new_explanatoin["word"] = word
+                if new_explanatoin["word"].lower() == word.lower():
+                    add_to_extensions = False
+                else:
+                    add_to_extensions = True
                 if "part_of_speech" in each_explanation:
                     new_explanatoin["part"] = each_explanation["part_of_speech"]
-                new_explanatoin["defination"] = [];
-                for each_sense in each_explanation["senses"]:
-                    for each_defination in each_sense["defination"]:
-                        new_explanatoin["defination"].append([each_defination])
-            word_dict = {"explanations":explanation, 'extensions':[], 'hit':0}
+                new_explanatoin["definition"] = [];
+                if "senses" in each_explanation:
+                    for each_sense in each_explanation["senses"]:
+                        if "definition" in each_sense:
+                            for each_definition in each_sense["definition"]:
+                                new_explanatoin["definition"].append([each_definition])
+                if add_to_extensions:
+                    extensions.append(new_explanatoin)
+                else:
+                    explanations.append(new_explanatoin)
+            word_dict = {"explanations":explanations, 'extensions':extensions, 'hit':0}
             database[word] = word_dict
-            print_word(word_dict, extensions = False)
+            print_word(word_dict, extensions = should_show_extension)
+        else:
+            print("No results")
     except Exception as e:
         print("Error", e)
 
