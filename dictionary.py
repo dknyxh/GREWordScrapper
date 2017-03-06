@@ -199,11 +199,13 @@ def search_word_longman(user_input,database):
                     if "part_of_speech" in each_explanation:
                         new_explanatoin["part"] = each_explanation["part_of_speech"]
                     new_explanatoin["definition"] = [];
-                    if "senses" in each_explanation:
+                    if "senses" in each_explanation and each_explanation['senses'] is not None:
                         for each_sense in each_explanation["senses"]:
                             if "definition" in each_sense:
                                 for each_definition in each_sense["definition"]:
                                     new_explanatoin["definition"].append([each_definition])
+                    else:
+                        continue
                     if add_to_extensions:
                         extensions.append(new_explanatoin)
                     else:
